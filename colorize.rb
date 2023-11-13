@@ -28,8 +28,20 @@ class String
       colorize(35)
     end
   
+    def magenta
+        colorize(35)
+    end
+
+    def cyan
+        colorize(36)
+    end
+
     def light_blue
       colorize(36)
+    end
+
+    def white
+        colorize(37)
     end
   end
   
